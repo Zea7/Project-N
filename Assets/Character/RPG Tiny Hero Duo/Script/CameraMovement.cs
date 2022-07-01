@@ -13,7 +13,8 @@ public class CameraMovement : MonoBehaviour {
     }
 
     private void Update() {
-        CameraMove();
+        if(Input.GetMouseButton(0))
+            CameraMove();
     }
 
     // 카메라 움직임을 담당하는 함수
