@@ -863,7 +863,6 @@ GameObject:
   - component: {fileID: 1250161041}
   - component: {fileID: 1250161040}
   - component: {fileID: 1250161045}
-  - component: {fileID: 1250161044}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -949,21 +948,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1250161044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250161039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36dcf429c39649748aa28fb7f55afaa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 5
-  rotateSpeed: 5
-  rotateAnglePerTick: 45
 --- !u!54 &1250161045
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3960,7 +3944,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6419426d07b6fd44da0dd89c494a30fd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4008,7 +3992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36dcf429c39649748aa28fb7f55afaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 100
+  runSpeed: 5
   rotateSpeed: 5
   rotateAnglePerTick: 45
 --- !u!1 &9105106661747763738
